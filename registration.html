@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>User Registration</title>
+</head>
+<body>
+
+<header>
+    <h1>Construction Company</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="main.html">Home</a></li>
+        <li><a href="projects.php">Projects</a></li>
+        <li><a href="tasks.php">Tasks</a></li>
+        <li><a href="Builders.php">Builders</a></li>
+        <li><a href="materials.php">Materials</a></li>
+        <li><a href="finances.php">Finances</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="registration.html">Sign In</a></li>
+        <li><a href="login.html">Log In</a></li>
+    </ul>
+</nav>
+
+<section id="registration-form">
+    <h2>User Registration</h2>
+    <form action="register.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+
+        <button type="submit">Register</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2023 Construction Company. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
